@@ -96,9 +96,11 @@ public class Chapter0204SystemPrint {
         boolean result = (x == 5);      // true
 
         // 문자열 비교는 (.equals()) 메소드 사용
-        str = "Java";
-        result = str.equals("Java");    // true
-        result = str.equals("java");    // false
+        String compare = "Java";
+        result = compare.equals("Java");    // true
+        System.out.println(result);
+        result = compare.equals("java");    // false
+        System.out.println(result);
 
 
 
