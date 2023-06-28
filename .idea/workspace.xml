@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aba44fb9-7921-485a-a6d1-ee5ed71b096f" name="Changes" comment="Commit">
-      <change afterPath="$PROJECT_DIR$/src/SelfLearningJava/Chapter0200Practice.java" afterDir="false" />
+    <list default="true" id="aba44fb9-7921-485a-a6d1-ee5ed71b096f" name="Changes" comment="Second Commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SelfLearningJava/Chapter0200Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SelfLearningJava/Chapter0200Practice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +54,7 @@
       <option name="presentableId" value="Default" />
       <updated>1687936958520</updated>
       <workItem from="1687936959638" duration="1382000" />
-      <workItem from="1687938360340" duration="4883000" />
+      <workItem from="1687938360340" duration="6331000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <option name="closed" value="true" />
@@ -87,7 +88,23 @@
       <option name="project" value="LOCAL" />
       <updated>1687943265495</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Second Commit">
+      <option name="closed" value="true" />
+      <created>1687943700165</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1687943700165</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Second Commit">
+      <option name="closed" value="true" />
+      <created>1687943724845</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1687943724845</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,8 +112,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Second Commit" />
     <MESSAGE value="Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit" />
+    <MESSAGE value="Second Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Second Commit" />
   </component>
 </project>
