@@ -7,6 +7,9 @@ public class Chapter0302Operator {
 
         // 1-1. 비교
         // == != > < >= <= instanceof
+        int x = 10;
+        int y = 10;
+
         int int_result = x + y;
         boolean bool_result = (x + y) < 5;
         System.out.println("(x + y) < 5     " + bool_result);

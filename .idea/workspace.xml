@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aba44fb9-7921-485a-a6d1-ee5ed71b096f" name="Changes" comment="Second Commit">
-      <change afterPath="$PROJECT_DIR$/src/SelfLearningJava/Chapter0301Operator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="aba44fb9-7921-485a-a6d1-ee5ed71b096f" name="Changes" comment="Third Commit">
+      <change afterPath="$PROJECT_DIR$/src/SelfLearningJava/Chapter0302Operator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SelfLearningJava/Chapter0301Operator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SelfLearningJava/Chapter0301Operator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +54,7 @@
       <option name="presentableId" value="Default" />
       <updated>1687936958520</updated>
       <workItem from="1687936959638" duration="1382000" />
-      <workItem from="1687938360340" duration="12105000" />
+      <workItem from="1687938360340" duration="16256000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <option name="closed" value="true" />
@@ -112,7 +112,15 @@
       <option name="project" value="LOCAL" />
       <updated>1687945232630</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Third Commit">
+      <option name="closed" value="true" />
+      <created>1687950831136</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1687950831136</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +130,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Commit" />
     <MESSAGE value="Second Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Second Commit" />
+    <MESSAGE value="Third Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Third Commit" />
   </component>
 </project>
