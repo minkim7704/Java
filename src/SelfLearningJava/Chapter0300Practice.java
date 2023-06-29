@@ -3,8 +3,8 @@ package SelfLearningJava;
 import java.util.Scanner;
 
 public class Chapter0300Practice {
-    /* Chapter 2 에서 공부한 Scanner 를 사용한 연습문제를 포함해
-    * Chapter 3 에서 공부하는 것들을 연습해보장 */
+    /* Chapter 2 에서 시스템 입력장치에서 받은 통문자열을 인식하는 Scanner, 타입 변환에 대해 공부했다.
+    Chapter 2 에서 공부한 것들을 포함해 Chapter 3에서 공부한 것들을 사용해보는 연습문제를 풀어보장. */
     public static void main(String[] args) {
         // 1. exam 1
         Scanner scanner = new Scanner(System.in);
