@@ -77,36 +77,33 @@ public class Chapter0301Operator {
         * x++ = x
         * */
 
+        // 3. Assignment Operator
+        int result = 0;
+        result += 10;
+        System.out.println("result=" + result);
+        result -= 5;
+        System.out.println("result=" + result);
+        result *= 3;
+        System.out.println("result=" + result);
+        result /= 5;
+        System.out.println("result=" + result);
+        result %= 3;
+        System.out.println("result=" + result);
 
-        // 3. Boolean 을 이용한 비교와 논리
-        // 3-1. 비교
-            // == != > < >= <= instanceof
-        boolean play = true;
-        System.out.println((play)); // true
 
-        play = !play;               // play is not play (not true)
-        System.out.println(play);   // false
-
-        play = !play;               // play is not (not play) (not false)
-        System.out.println(play);   // true
-        // (!)에 대한 단순 설명 : 피연산자가 true 면 false 산출, false 면 true 산출.
-
-        int int_result = x + y;
-        boolean bool_result = (x + y) < 5;
-        System.out.println("(x + y) < 5     " + bool_result);
-
+        // 4. 우선순위 matter
         // 연산은 우선선위에 따라 수행된다. * 단항 - 이항 - 삼항 * 산술 - 비교 - 논리 - 대입 *
-        bool_result = x > 0 && y < 0;
-                    // x > 0 True
-                    // y < 0 False
-                    // True && False = False
+        boolean bool_result = x > 0 && y < 0;
+        // x > 0 True
+        // y < 0 False
+        // True && False = False
         System.out.println("x > 0 && y < 00     " + bool_result);
 
         // 우선순위가 같다면 왼쪽에서 오른쪽으로 수행된다.
-        int_result = 100 * 2 / 3 % 5;
+        int int_result = 100 * 2 / 3 % 5;
         System.out.println(int_result);
-            // 예외: 대입 연산자 (오른쪽에서 왼쪽으로 수행)
-            // a = b = c = 5;
+        // 예외: 대입 연산자 (오른쪽에서 왼쪽으로 수행)
+        // a = b = c = 5;
 
         // 괄호를 이용해 우선순위 지정할 수 있다.
         int var1 = 1;
@@ -118,11 +115,7 @@ public class Chapter0301Operator {
         System.out.println(int_result);     // 9
 
 
-        // 3-2. Deny Logic Operator (논리 부정  연산자)
-            // ! & | && ||
-
-
-        // 4. Arithmetic Operators
+        // 5. Arithmetic Operators
         int v1 = 5;
         int v2 = 2;
         int result4 = v1 / v2;          // 나눈 값. int 타입이니까 소수점 아래 자리 생략하기
@@ -135,16 +128,16 @@ public class Chapter0301Operator {
         System.out.println("result6 = " + result6);
 
 
-        // 5. Char Operator
+        // 6. Char Operator
         char c1 = 'A' + 1;
         char c2 = 'A';
         //char c3 = c2 + 1;    //컴파일 에러
-        System.out.println("c1: " + c1);
-        System.out.println("c2: " + c2);
+        System.out.println("c1: " + c1); // B
+        System.out.println("c2: " + c2); // A
         //System.out.println("c3: " + c3);
 
 
-        // 6. String Concat
+        // 7. String Concat
         String str1 = "JDK" + 6.0;
         String str2 = str1 + " 특징";
         System.out.println(str2);
